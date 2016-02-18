@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleLayout">
+        <attr name="mscolor" format="color" />
+        <attr name="msstrokeWidth" format="dimension" />
+        <attr name="msradius" format="dimension" />
+        <attr name="msmarginbom" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="rippleNums" format="integer" />
+        <attr name="scale" format="float" />
+        <attr name="bootomMargin" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313B3A"
+    tools:context="com.app.fan.ripplelayoutdemo.MainActivity">
+
+    <com.app.fan.ripplelayoutdemo.view.RippleLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msmarginbom="70dp"
+        app:msradius="55dp">
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:src="@mipmap/local" />
+    </com.app.fan.ripplelayoutdemo.view.RippleLayout>
+
+</RelativeLayout>
